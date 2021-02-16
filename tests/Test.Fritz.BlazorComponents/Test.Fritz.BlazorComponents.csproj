@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="bunit" Version="1.0.0-preview-01" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\src\Fritz.BlazorComponents\Fritz.BlazorComponents.csproj" />
   </ItemGroup>
 
